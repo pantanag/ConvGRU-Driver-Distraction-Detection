@@ -8,3 +8,4 @@ The process of driving is one of the most common ones in the daily lives of many
 </p>
 <h1> Architecture </h1>
 The proposed architecture is the neural model ConvGRU which combines one 3D convolution with 2D depthwise seperable ones, leading to a very lightweight neural architecture. A recurrent neural model is then responsible for capturing the time correlations between the features and finally a classifier produces the final decision.
+<img src = './images/convgru4.svg'>
